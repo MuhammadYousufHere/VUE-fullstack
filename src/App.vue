@@ -1,9 +1,10 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
+import ExpenseApp from './views/ExpenseApp/ExpenseApp.vue'
 </script>
 
 <template>
-  <header>
+  <!-- <header>
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="45" height="45" />
 
     <div class="wrapper">
@@ -13,8 +14,9 @@ import { RouterLink, RouterView } from 'vue-router'
       </nav>
     </div>
   </header>
-
-  <RouterView />
+ -->
+  <ExpenseApp />
+  <!-- <RouterView /> -->
 </template>
 
 <style scoped>
